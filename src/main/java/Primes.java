@@ -7,7 +7,6 @@ public class Primes {
             factors++;
           }
         }
-        System.out.println(factors);
         return factors;
     }
 
@@ -18,7 +17,6 @@ public class Primes {
         }else {
           prime = true;
         }
-        System.out.println(prime);
         return prime;
     }
 
@@ -35,7 +33,6 @@ public class Primes {
             }
        
         }
-     System.out.println(numPrimes);
      return numPrimes;
   }
 }
