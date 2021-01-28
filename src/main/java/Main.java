@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
        Primes myP = new Primes();
        int factor = myP.countFactors(24);
-       System.out.println(factor);
+       System.out.print(factor);
        boolean prime = myP.isPrime(47);
-       System.out.println(prime);
+       System.out.print(prime);
        int count = myP.countPrimes(24);
-       System.out.println(count);
+       System.out.print(count);
     }
 }
