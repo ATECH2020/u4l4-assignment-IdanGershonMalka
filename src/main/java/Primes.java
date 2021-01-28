@@ -21,14 +21,13 @@ public class Primes {
     }
 
     public static int countPrimes(int n){
-        int numPrimes = 1;
+        int numPrimes = 0;
         if(isPrime(n) == false){
-          for(int i = 1; i <= n; i++){
+          for(int i = 2; i <= n; i++){
           
-          
-            int count = n/i;
-            if(count > 2){
+            if(isPrime(i) == true){
               numPrimes++;
+              //System.out.print("numPrimes: " + numPrimes + " i: " + i + " ");
             }
             }
        
