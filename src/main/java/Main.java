@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        // you can print static methods by using Class.method() format
-        System.out.println("Hello World!");
+       Primes myP = new Primes();
+       int factor = myP.countFactors(24);
+       System.out.print(factor);
+       boolean prime = myP.isPrime(47);
+       System.out.print(prime);
+       int count = myP.countPrimes(24);
+       System.out.print(count);
     }
 }
